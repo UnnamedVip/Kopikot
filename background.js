@@ -1,5 +1,5 @@
-
-function mary(){
+//function for icon change in extension if user opened url = https://www.kopikot.ru/home
+var check = function(){
   
   chrome.tabs.getAllInWindow(undefined, function(tabs) {
   for (var i = 0;i<tabs.length; i++) {
@@ -21,14 +21,7 @@ function mary(){
 
 };
 
+chrome.tabs.onUpdated.addListener(check);
 
-chrome.tabs.onUpdated.addListener(mary);
-
-
-chrome.tabs.onRemoved.addListener(mary);
-
-
-
-
-
+chrome.tabs.onRemoved.addListener(check);
 
