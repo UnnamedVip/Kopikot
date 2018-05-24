@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Kopikot",
+    "version": "1.0.0",
+
+    "permissions": [ "tabs", "activeTab"],
+   
+    "background":{
+        "scripts":["background.js"]
+      },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.kopikot.ru/*",
+        "*://www.kopikot.ru/*"
+       ],
+      "js": [ "content.js" ]
+    }
+  ],
+
+    "browser_action": {
+        "default_icon": "assets/images/default.png",
+        "default_popup": "index.html"
+    }
+
+}
+        
