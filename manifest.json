@@ -2,8 +2,9 @@
     "manifest_version": 2,
     "name": "Kopikot",
     "version": "1.0.0",
+    
 
-    "permissions": [ "tabs", "activeTab"],
+    "permissions": [ "tabs", "activeTab", "storage"],
    
     "background":{
         "scripts":["background.js"]
