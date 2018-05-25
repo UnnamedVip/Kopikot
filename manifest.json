@@ -23,7 +23,6 @@
        ],
       "js": [ "clickCount.js" ]
     }
-
   ],
 
     "browser_action": {
