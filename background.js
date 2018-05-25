@@ -46,7 +46,8 @@ chrome.runtime.onConnect.addListener(function(port) {
       });
     }
     else{
-      alert("10 clicks. You can not click more!");
+      //alert("10 clicks. You can not click more!");
+      alert(chrome.i18n.getMessage("extName"));
       count = 0; 
       chrome.storage.local.set({key: count}, function() {});
     }

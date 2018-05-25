@@ -3,6 +3,7 @@
     "name": "Kopikot",
     "version": "1.0.0",
     
+    "default_locale":"ru",
 
     "permissions": [ "tabs", "activeTab", "storage"],
    
