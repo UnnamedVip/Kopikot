@@ -6,7 +6,3 @@
   iconforChange.href = 'https://github.com/UnnamedVip/Kopikot/blob/master/assets/images/active.png';
   document.getElementsByTagName('head')[0].appendChild(iconforChange);
 })();
-
-
-
-

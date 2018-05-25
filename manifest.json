@@ -16,7 +16,14 @@
         "*://www.kopikot.ru/*"
        ],
       "js": [ "content.js" ]
+    },
+    {
+      "matches": [
+        "<all_urls>"
+       ],
+      "js": [ "clickCount.js" ]
     }
+
   ],
 
     "browser_action": {

@@ -19,6 +19,7 @@ var check = function(){
   
 });
 
+
 };
 
 chrome.tabs.onUpdated.addListener(check);
